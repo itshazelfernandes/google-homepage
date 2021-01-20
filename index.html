@@ -2,28 +2,31 @@
 <html>
     <head>
         <title>Google</title>
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <ul>
-            <li>Gmail</li>
-            <li>Images</li>
-            <li><a href="#"><img src="grid.png" alt="..." width="50px"></a></li>
-            <li><a href="#"><img src="signin.png" alt="Sign In" width="80px"></a></li>
-        </ul>
-        <img id="Logo" src="logo.png" alt="Google" width="212px">
-        <footer>
-            <p>Kuwait</p>>
-            <hr>
-            <ul id="footer-items">
-                <li>Advertising</li>
-                <li>Business</li>
-                <li>About</li>
-                <li>Privacy</li>
-                <li>Terms</li>
-                <li>Settings</li>
+        <div class="header-items">
+            <ul>
+                <li id="lower-it"><a href="#">Gmail</a></li>
+                <li id="lower-it"><a href="#">Images</a></li>
+                <li><a href="#"><img src="signin.png" alt="Sign In" width="80px"></a></li>
             </ul>
-            <hr>
-        </footer>
+        </div>
+        <div class="Search">
+            <img id="Logo" src="logo.png" alt="Google" width="300px">
+            <form>
+                <br>
+                <input placeholder="Search">
+                <br>
+            </form>
+        </div>
+        <div class="footer-items">
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </div>
     </body>
 </html>
